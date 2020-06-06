@@ -1,0 +1,255 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.button {
+  background-color: transparent;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  /*-webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;*/
+  border: 3px solid #ffffff;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  width: 367px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 3px solid #338e5d;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+/* Header */
+
+header {
+  background: url("../img/bg-inicio.jpg") no-repeat center center;
+  background-size: cover;
+  height: 607px;
+}
+
+.logo {
+  width: 120px;
+  padding: 10px 0;
+}
+
+.header {
+  /*position: fixed;*/
+  background-color: #121619;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.header_menu {
+  padding: 15px 0;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.header_menu ul li a {
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 10px;
+}
+
+.header_menu ul li a:hover {
+  color: #338e5d;
+}
+
+/* Produtos e Clientes */
+
+.container h2 {
+  color: #707070;
+}
+
+.container h2::after {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #707070;
+  margin: 17px 0 34px 0;
+}
+
+.produtos, .clientes {
+  padding: 30px 0;
+  background-color: #e3e3e3;
+}
+
+.produtos ul li {
+  display: inline-flex;
+  box-shadow: 0px 2px 12px #867c7c;
+}
+
+.clientes .grid-6 {
+  padding-left: 75px;
+}
+
+.clientes p {
+  padding: 0 10px;
+}
+
+/* Contato */
+
+.contato {
+  padding: 30px 0;
+  background-color: #403c3c;
+}
+
+.contato h2,
+.contato p {
+  color: white;
+}
+
+.contato .formu p {
+  font-size: 18px;
+}
+
+.contato form input,
+.contato form textarea {
+  margin: 12px 0;
+}
+
+input[type="text"],
+textarea {
+  border: 5px solid #ffffff;
+  border-radius: 5px;
+}
+
+.contato button {
+  width: 369px;
+  height: 50px;
+}
+
+.contato button a {
+  color: white;
+}
+
+.redes-sociais {
+  padding-top: 50px;
+}
+
+.redes-sociais ul li {
+  display: inline-flex;
+  padding: 0 15px;
+}
+
+/*.redes-sociais ul li a img:hover {
+  background-image: url('../img/icons8-whatsapp\ \(2\).svg');
+}*/
+
+/* Footer */
+
+footer {
+  background-color: black;
+  padding: 13px;
+}
+
+footer p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+/* js */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide]>* {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide]>.active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav]>button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+}
+
+.js [data-slide-nav]>button.active {
+  background: #fec454;
+}
+
+/* 6 Adicione o CSS Essêncial abaixo */
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}

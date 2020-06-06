@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoArt</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <a href="#" class="grid-4">
+            <img src="img/logo.png" alt="SoArt" class="logo">
+          </a>
+
+          <div class="grid-12 header_menu">
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#clientes">Clientes</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="produtos" id="produtos" data-anime="500">
+    <div class="container">
+      <h2>Produtos</h2>
+      <div class="grid-8">
+        <ul data-slide="produto1">
+          <li><img src="img/produtos/Produto-1.jpg" alt="Produto-1"></li>
+          <li><img src="img/produtos/Produto-2.jpg" alt="Produto-2"></li>
+        </ul>
+      </div>
+      <div class="grid-8">
+        <ul data-slide="produto2">
+          <li><img src="img/produtos/Produto-3.jpg" alt="Produto-3"></li>
+          <li><img src="img/produtos/Produto-4.jpg" alt="Produto-4"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="clientes" id="clientes" data-anime="500">
+    <div class="container">
+      <h2>O que nossos clientes estão falando</h2>
+      <div class="grid-6"><img src="img/linha-clientes.svg" alt=""></div>
+      <div class="grid-8" data-slide="clientes">
+        <p>Pousou em meio às rochas. Suas asas se fecharam, seu corpo começava a se esfriar. O peso dos anos fazia suas penas se esfarelarem e sua chama amiudar. Percebeu que era a hora da partida. Olhou para o céu estrelado, morrer era uma das leis da natureza, mas nem por isso era algo bom. Guinchou fracamente, seu fogo apagou, seu corpo caiu no chão e se transformou em cinzas negras.</p>
+
+        <p>Morena de olhos castanhos, cabelos negros como a noite e um corpo perfeito para seus vinte e poucos anos.
+          Eu sabia que era apenas mais um em sua boca, que em pouco tempo seria outro e eu seria esquecido.</p>
+
+        <p>Sonhos, planos, objetivos feitos em delírios conjugais. Pensamentos que a realidade fez questão de mostrar que estavam errados. Tudo perfeitamente planejado, mas que não deixou de ser apenas um plano que não teve a oportunidade de sair do papel, pior, não teve nem a oportunidade de sair das mentes juvenis apaixonadas para ir ao papel.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato" data-anime="500">
+    <div class="container">
+      <div class="grid-9 formu">
+        <h2 data-anime="2000">Fale conosco</h2>
+        <form name="formulario" action="#" method="post">
+          <p>Nome</p>
+          <input type=text name="nome" size="40">
+          <p>Telefone</p>
+          <input type=text name="email" size="40">
+          <p>Email</p>
+          <input type=text name="assunto" size="40">
+          <p>Mensagem</p>
+          <textarea name="Mensagem" rows="10" cols="42"></textarea>
+          <a href="#" class="button">Enviar</a>
+        </form>
+      </div>
+      <div class="grid-7">
+        <div>
+          <h2>Nossa história</h2>
+          <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os. estas indústrias desde o ano de 1500, quando estas indústrias estas indústrias. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os. estas indústrias desde o ano de 1500, quando estas indústrias estas indústrias. uma misturou os. estas indústrias desde o ano de 1500, quando estas indústrias estas. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os. estas indústrias desde o ano de 1500, quando estas indústrias estas indústrias. uma misturou os. estas indústrias desde o ano de 1500, quando estas indústrias estas. O Lorem.
+          </p>
+        </div>
+        <div>
+          <div class="redes-sociais">
+            <h2>Redes sociais</h2>
+            <ul>
+              <li><a href="#"><img src="img/icons8-facebook.svg" alt="Facebook"></a></li>
+              <li><a href="#"><img src="img/icons8-instagram.svg" alt="Instagram"></a></li>
+              <li><a href="#"><img src="img/icons8-whatsapp.svg" alt="Whatsapp"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Alguns direitos reservados. As fotos contidas nesta página são meramente ilustrativas. Criado por <a href="https://www.github.com/leodev7" target="_blank">Leonardo</a>.</p>
+  </footer>
+
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
