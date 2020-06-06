@@ -106,12 +106,6 @@ header .header_menu ul li a:hover{
 	color: white;
 }
 
-header {
-	background: url("../img/bg-mobile.jpg") no-repeat center;
-	background-size: cover;
-	height: 333px;
-}
-
 header img{
 	margin: -10px auto;
 }
