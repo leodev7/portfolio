@@ -80,6 +80,7 @@ a {
 #projetos {
   background-color: #686c99;
   padding-bottom: 130px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
 
@@ -177,6 +178,7 @@ a {
   #projetos {
     background-color: #686c99;
     padding-bottom: 130px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
     clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
   }
 
