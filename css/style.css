@@ -82,8 +82,8 @@ a {
   padding-bottom: 130px;
   /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%); */
-  -webkit-clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 85%, 50% 100%, 0 85%);
-  clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  -webkit-clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
 #projetos h1 {
@@ -182,8 +182,9 @@ a {
   #projetos {
     background-color: #686c99;
     padding-bottom: 130px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
-    clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
+    -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    
   }
 
   #projetos ul li .site {
