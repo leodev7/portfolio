@@ -152,6 +152,21 @@ a {
 
 /* Sobre mim */
 
+#sobre h1 {
+  font-size: 50px;
+  padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 788px) and (max-width: 1160px) {
   #page-home {
     background-size: contain;
