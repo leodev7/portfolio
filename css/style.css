@@ -149,18 +149,19 @@ a {
 
 /* Sobre mim */
 
-@media (max-width: 1160px) {
+@media only screen and (min-width: 788px) and (max-width: 1160px) {
   #page-home {
-    background-image: url(none);
+    background-size: contain;
   }
-}
-
-/*Estilo para tablets*/
-@media only screen and (min-width: 788px) and (max-width: 979px) {
 }
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
+
+  #page-home {
+    background-image: url(none);
+  }
+
   #page-home header {
     display: grid;
     margin: 0 auto;
