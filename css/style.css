@@ -5,7 +5,7 @@
 }
 
 * {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 a {
@@ -78,14 +78,15 @@ a {
 /* Projetos */
 
 #projetos {
-  background-color: #686C99;
-  padding-bottom: 30px;
+  background-color: #686c99;
+  padding-bottom: 130px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
 
 #projetos h1 {
   font-size: 50px;
   padding: 50px 0;
-  color: #FFFAF8;
+  color: #fffaf8;
 }
 
 #projetos p {
@@ -145,22 +146,17 @@ a {
   text-decoration-color: var(--primary-color);
 }
 
+/* Sobre mim */
 
-
-
-
-
-
-
-
-@media (max-width:1160px) {
+@media (max-width: 1160px) {
   #page-home {
     background-image: url(none);
   }
 }
 
 /*Estilo para tablets*/
-@media only screen and (min-width: 788px) and (max-width: 979px) {}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
@@ -176,6 +172,12 @@ a {
 
   #page-home main h1 {
     text-align: center;
+  }
+
+  #projetos {
+    background-color: #686c99;
+    padding-bottom: 130px;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 93%);
   }
 
   #projetos ul li .site {
