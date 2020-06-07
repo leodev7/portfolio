@@ -136,6 +136,13 @@ a {
   margin-bottom: 50px;
 }
 
+#projetos ul li a{
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
 #projetos ul li .github {
   color: white;
   font-variant: small-caps;
@@ -144,6 +151,8 @@ a {
   float: right;
   text-decoration: overline;
   margin-left: 15px;
+  font-weight: 400;
+  text-transform: unset;
 }
 
 #projetos ul li a:hover {
