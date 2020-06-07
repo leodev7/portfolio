@@ -1,8 +1,8 @@
-# About me
+# About
 
 A simple portfolio created to share projects and jobs
 
-## SKILLS:
+## SKILLS
 
 - HTML/5
 - CSS/3
