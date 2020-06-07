@@ -1,7 +1,8 @@
 # About me
+
 A simple portfolio created to share projects and jobs
 
-Loved languages:
+## SKILLS:
 
 - HTML/5
 - CSS/3
@@ -10,6 +11,7 @@ Loved languages:
 - GIT
 
 # Links
+
 Live portfolio in [Github](https://leodev7.github.io/portfolio/).
 
-> Congrats to: [Rocketseat](https://rocketseat.com.br/), [Origamid](https://www.origamid.com/) and [Digital Innovation](https://web.digitalinnovation.one/home)!  :+1:
+> Congrats to: [Rocketseat](https://rocketseat.com.br/), [Origamid](https://www.origamid.com/) and [Digital Innovation](https://web.digitalinnovation.one/home)! :+1:
