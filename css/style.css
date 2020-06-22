@@ -134,7 +134,7 @@ a {
   margin-bottom: 50px;
 }
 
-#projetos ul li a{
+#projetos ul li a {
   color: white;
   font-weight: 800;
   font-size: 18px;
@@ -165,26 +165,18 @@ a {
 }
 
 #sobre img {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .imagem {
-  background: #FFFFFF url('../img/photo-1522252234503-e356532cafd5.jpg') no-repeat;
+  background: #ffffff url("../img/photo-1522252234503-e356532cafd5.jpg")
+    no-repeat;
   width: 100%;
   height: 400px;
   background-position: top;
-  box-shadow:0px 1px 7px grey;  
+  box-shadow: 0px 1px 7px grey;
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 788px) and (max-width: 1160px) {
   #page-home {
@@ -194,9 +186,8 @@ a {
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
-
   #page-home {
-    background-image: url(none);
+    background-image: none;
   }
 
   #page-home header {
@@ -218,7 +209,6 @@ a {
     padding-bottom: 130px;
     -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
     clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
-    
   }
 
   #projetos ul li .site {
