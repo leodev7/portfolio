@@ -173,7 +173,7 @@ a {
 
 .habilidades{
   display: flex;
-  flex-wrap: 150px;
+  justify-content: space-between;
 }
 
 .habilidades img{
@@ -201,6 +201,15 @@ a {
 @media only screen and (min-width: 788px) and (max-width: 1160px) {
   #page-home {
     background-size: contain;
+  }
+
+  .habilidades{
+    display: flex;
+    justify-content: center;
+  }
+
+  .habilidades img{
+    max-width: 50vw;
   }
 }
 
@@ -243,6 +252,19 @@ a {
 
   #projetos ul li h3::after {
     margin: 15px 0;
+  }
+
+  .habilidades{
+    display: block;
+  }
+
+  .habilidades img{
+    max-width: 55vw;
+  }
+
+  .habilidades .lista-sobre {
+    font-size: 30px;
+    padding: 50px 25px;
   }
 }
 
