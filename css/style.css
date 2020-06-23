@@ -201,7 +201,7 @@ a {
 
 .habilidades .ativo {
   font-size: 40px;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .img_none {
