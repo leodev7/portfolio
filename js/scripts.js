@@ -2,8 +2,8 @@ const linksInternos = document.querySelectorAll('.habilidades li a');
 
 const pegarImagem = document.querySelector('.habilidades img');
 
-pegarImagem.setAttribute("src", "img/gamer.jpg")
-console.log(pegarImagem)
+// pegarImagem.setAttribute("src", "img/investidor.jpg")
+
 
 
 function handleLink(event){
