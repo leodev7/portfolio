@@ -1,23 +1,19 @@
-const pegarClasse = document.querySelectorAll('.habilidades li a');
+const linksInternos = document.querySelectorAll('.habilidades li a');
 
-const pegarImagem = document.querySelectorAll('.habilidades img');
+const pegarImagem = document.querySelector('.habilidades img');
 
-pegarClasse.forEach(pegarClasse => {
-    pegarClasse.addEventListener('click', function(event) {
-       if (pegarClasse.classList.value === ''){
-             pegarClasse.classList.add('ativo');
-        } else if (pegarClasse.classList.value != ''){
-            pegarClasse.classList.remove('ativo');
-        }
-    });
-});
+pegarImagem.setAttribute("src", "img/gamer.jpg")
+console.log(pegarImagem)
 
-// pegarImagem.forEach(pegarImagem => {
-//     pegarImagem.addEventListener('click', function(event) {
-//        if (pegarImagem.classList.value === ''){
-//              pegarImagem.classList.add('ativo_img');
-//         } else if (pegarImagem.classList.value != ''){
-//             pegarImagem.classList.remove('ativo_img');
-//         }
-//     });
-// });
+
+function handleLink(event){
+	event.preventDefault();
+    linksInternos.forEach((item) => {
+		item.classList.remove('ativo');
+	})
+	event.currentTarget.classList.add('ativo');
+}
+
+linksInternos.forEach((link) => {
+    link.addEventListener('click', handleLink)
+})
