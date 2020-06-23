@@ -12,12 +12,12 @@ pegarClasse.forEach(pegarClasse => {
     });
 });
 
-pegarImagem.forEach(pegarImagem => {
-    pegarImagem.addEventListener('click', function(event) {
-       if (pegarImagem.classList.value === ''){
-             pegarImagem.classList.add('ativo_img');
-        } else if (pegarImagem.classList.value != ''){
-            pegarImagem.classList.remove('ativo_img');
-        }
-    });
-});
+// pegarImagem.forEach(pegarImagem => {
+//     pegarImagem.addEventListener('click', function(event) {
+//        if (pegarImagem.classList.value === ''){
+//              pegarImagem.classList.add('ativo_img');
+//         } else if (pegarImagem.classList.value != ''){
+//             pegarImagem.classList.remove('ativo_img');
+//         }
+//     });
+// });
