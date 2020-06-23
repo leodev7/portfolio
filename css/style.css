@@ -1,5 +1,5 @@
 /* root */
-
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 :root {
   --primary-color: rgb(85, 26, 139);
 }
@@ -87,20 +87,19 @@ a {
   background: linear-gradient(to bottom, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
   -webkit-box-shadow: inset 0px 5px 38px -5px rgba(0,0,0,1);
   -moz-box-shadow: inset 0px 5px 38px -5px rgba(0,0,0,1);
-  box-shadow: inset 0px 5px 38px -5px rgba(0,0,0,1);
   box-shadow: inset 0px 5px 38px -5px rgba(0, 0, 0, 1);
   padding: 130px 0;
   -webkit-clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
   clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
-#projetos h1 {
+#projetos h1, #contato h1 {
   font-size: 50px;
   padding: 130px 0 50px;
   color: #fffaf8;
 }
 
-#projetos p {
+#projetos p, #contato p {
   color: white;
   line-height: 24px;
 }
@@ -180,7 +179,7 @@ a {
 }
 
 .habilidades img{
-  max-width: 40vw;
+  max-width: 35vw;
 }
 
 .habilidades .lista-sobre {
@@ -204,6 +203,126 @@ a {
   display: none;
 }
 
+/* Contato */
+
+#contato {
+  background-color: #686c99;
+  background: -moz-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104,108,153,1)), color-stop(47%, rgba(113,118,153,1)), color-stop(100%, rgba(104,108,153,1)));
+  background: -webkit-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  background: -o-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  background: -ms-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  background: linear-gradient(to bottom, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  -webkit-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+  -webkit-clip-path: polygon(0 0, 50% 18%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  clip-path: polygon(0 0, 50% 18%, 100% 0, 100% 100%, 50% 100%, 0 100%);
+}
+
+#contato .conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  gap: 0 30px;
+}
+
+.conteudo h2{
+  padding: 50px 0 30px;
+  font-size: 25px;
+}
+
+.email{
+  width: 100%;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid white;
+}
+
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.textbox textarea{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 85%;
+  resize: none;
+
+}
+
+input::placeholder, textarea::placeholder {
+  color: white;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+
+.s-m a{
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  background: #2c3e50;
+  color: white;
+  margin: 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 22px;
+}
+.s-m a:hover{
+  background: var(--primary-color);
+}
+.s-m a i{
+  transition: 0.4s all;
+}
+.s-m a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+}
+
+.outro {
+  
+}
+
+#contato p{
+  background-color: rgba(85, 26, 139, 0.3);
+  padding: 20px 0;
+  text-align: center;
+
+}
+
 
 @media only screen and (min-width: 788px) and (max-width: 1160px) {
   #page-home {
@@ -217,6 +336,13 @@ a {
 
   .habilidades img{
     max-width: 50vw;
+  }
+
+  #contato .conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap: 0 30px;
   }
 }
 
@@ -272,6 +398,13 @@ a {
   .habilidades .lista-sobre {
     font-size: 30px;
     padding: 50px 0;
+  }
+
+  #contato .conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    gap: 0 30px;
   }
 }
 
