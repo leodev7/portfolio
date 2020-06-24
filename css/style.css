@@ -1,5 +1,6 @@
 /* root */
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
 :root {
   --primary-color: rgb(85, 26, 139);
 }
@@ -10,6 +11,10 @@
 
 a {
   color: var(--primary-color);
+}
+
+h1 {
+  user-select: none;
 }
 
 /* Início */
@@ -102,28 +107,29 @@ a {
 /* Projetos */
 
 #projetos {
-  background-color: #686c99;
-  background: -moz-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104,108,153,1)), color-stop(47%, rgba(113,118,153,1)), color-stop(100%, rgba(104,108,153,1)));
-  background: -webkit-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -o-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -ms-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: linear-gradient(to bottom, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  -webkit-box-shadow: inset 0px 5px 38px -5px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 5px 38px -5px rgba(0,0,0,1);
+  background: -moz-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104, 108, 153, 1)), color-stop(47%, rgba(113, 118, 153, 1)), color-stop(100%, rgba(104, 108, 153, 1)));
+  background: -webkit-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -o-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: linear-gradient(to bottom, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  -webkit-box-shadow: inset 0px 5px 38px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 5px 38px -5px rgba(0, 0, 0, 1);
   box-shadow: inset 0px 5px 38px -5px rgba(0, 0, 0, 1);
-  padding: 130px 0;
+  padding: 50px 0 200px 0;
   -webkit-clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
   clip-path: polygon(0 0, 50% 8%, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
-#projetos h1, #contato h1 {
+#projetos h1,
+#contato h1 {
   font-size: 50px;
   padding: 130px 0 50px;
   color: #fffaf8;
 }
 
-#projetos p, #contato p {
+#projetos p,
+#contato p {
   color: white;
   line-height: 24px;
 }
@@ -198,12 +204,12 @@ a {
   color: var(--primary-color);
 }
 
-.habilidades{
+.habilidades {
   display: flex;
   justify-content: space-between;
 }
 
-.habilidades img{
+.habilidades img {
   max-width: 35vw;
 }
 
@@ -219,7 +225,8 @@ a {
 }
 
 
-.lista-sobre span, .lista-sobre li a {
+.lista-sobre span,
+.lista-sobre li a {
   font-size: 30px;
   color: black;
 }
@@ -237,12 +244,12 @@ a {
 
 #contato {
   background-color: #686c99;
-  background: -moz-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104,108,153,1)), color-stop(47%, rgba(113,118,153,1)), color-stop(100%, rgba(104,108,153,1)));
-  background: -webkit-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -o-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: -ms-linear-gradient(top, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
-  background: linear-gradient(to bottom, rgba(104,108,153,1) 0%, rgba(113,118,153,1) 47%, rgba(104,108,153,1) 100%);
+  background: -moz-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104, 108, 153, 1)), color-stop(47%, rgba(113, 118, 153, 1)), color-stop(100%, rgba(104, 108, 153, 1)));
+  background: -webkit-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -o-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+  background: linear-gradient(to bottom, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
   -webkit-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
   -moz-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
   box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
@@ -257,16 +264,16 @@ a {
   gap: 0 30px;
 }
 
-.conteudo h2{
+.conteudo h2 {
   padding: 50px 0 30px;
   font-size: 25px;
 }
 
-.email{
+.email {
   width: 100%;
 }
 
-.textbox{
+.textbox {
   width: 100%;
   overflow: hidden;
   font-size: 20px;
@@ -275,13 +282,13 @@ a {
   border-bottom: 1px solid white;
 }
 
-.textbox i{
+.textbox i {
   width: 26px;
   float: left;
   text-align: center;
 }
 
-.textbox input{
+.textbox input {
   border: none;
   outline: none;
   background: none;
@@ -289,10 +296,9 @@ a {
   font-size: 18px;
   width: 80%;
   float: left;
-  margin: 0 10px;
 }
 
-.textbox textarea{
+.textbox textarea {
   border: none;
   outline: none;
   background: none;
@@ -302,11 +308,12 @@ a {
   resize: none;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: white;
 }
 
-.btn{
+.btn {
   width: 100%;
   background: none;
   border: 2px solid white;
@@ -318,7 +325,7 @@ input::placeholder, textarea::placeholder {
 }
 
 
-.s-m a{
+.s-m a {
   display: inline-flex;
   width: 80px;
   height: 80px;
@@ -331,17 +338,20 @@ input::placeholder, textarea::placeholder {
   transition: 0.4s;
   font-size: 22px;
 }
-.s-m a:hover{
+
+.s-m a:hover {
   background: var(--primary-color);
 }
-.s-m a i{
-  transition: 0.4s all;
-}
-.s-m a:hover > i{
-  transform: scale(1.6) rotate(25deg);
+
+.s-m a i {
+  transition: 0.8s all;
 }
 
-#contato p{
+.s-m a:hover>i {
+  transform: scale(2) rotate(30deg);
+}
+
+#contato p {
   background-color: rgba(85, 26, 139, 0.3);
   padding: 20px 0;
   margin-top: 30px;
@@ -353,12 +363,12 @@ input::placeholder, textarea::placeholder {
     background-size: contain;
   }
 
-  .habilidades{
+  .habilidades {
     display: flex;
     justify-content: center;
   }
 
-  .habilidades img{
+  .habilidades img {
     max-width: 50vw;
   }
 
@@ -411,11 +421,11 @@ input::placeholder, textarea::placeholder {
     margin: 15px 0;
   }
 
-  .habilidades{
+  .habilidades {
     display: block;
   }
 
-  .habilidades img{
+  .habilidades img {
     max-width: 55vw;
   }
 
@@ -445,6 +455,6 @@ input::placeholder, textarea::placeholder {
 
   .habilidades .lista-sobre {
     font-size: 30px;
-    padding: 50px 0 ;
+    padding: 50px 0;
   }
 }
