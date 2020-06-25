@@ -210,7 +210,8 @@ h1 {
 }
 
 .habilidades img {
-  max-width: 35vw;
+  max-width: 600px;
+  height: 400px;
 }
 
 .lista-sobre li {
