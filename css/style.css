@@ -366,7 +366,17 @@ textarea::placeholder {
   }
 
   .habilidades img {
-    max-width: 50vw;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .lista-sobre li{
+    width: 200px;
+  }
+  
+  .lista-sobre li span {
+    /* width: 100%; */
+    font-size: 18px;
   }
 
   #contato .conteudo {
@@ -423,7 +433,8 @@ textarea::placeholder {
   }
 
   .habilidades img {
-    max-width: 55vw;
+    max-width: 350px;
+    height: 200px;
   }
 
   .habilidades .lista-sobre {
