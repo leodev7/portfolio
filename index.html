@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - LeoDev</title>
+    <script>document.documentElement.className += ' js'</script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -34,7 +35,9 @@
                 </ul>
             </header>
             <main>
-                <h1>Olá, eu sou o <a href="https://github.com/leodev7" target="_blank"><p class="hover-underline-animation">leonardo</p></a>!</h1>
+                <h1>Olá, eu sou o <a href="https://github.com/leodev7" target="_blank">
+                        <p class="hover-underline-animation">leonardo</p>
+                    </a>!</h1>
             </main>
         </div>
     </div>
@@ -79,12 +82,14 @@
         <div class="container">
             <h1>Sobre mim</h1>
             <div class="habilidades">
-                <img src="img/developer.jpg" alt="Developer">
-                <!-- <img src="img/gamer.jpg" alt="Gamer" class="img_none">
-                <img src="img/cruzeirense.jpg" alt="Cruzeirense" class="img_none">
-                <img src="img/investidor.jpg" alt="Investidor" class="img_none"> -->
-                <ul class="lista-sobre">
-                    <li><a href="#developer" class="ativo">→ <span>Developer</span></a></li>
+                <div class="imagens js-tabImagens">
+                    <li><img src="img/developer.jpg" alt="Developer"></li>
+                    <li><img src="img/gamer.jpg" alt="Gamer"></li>
+                    <li><img src="img/cruzeirense.jpg" alt="Cruzeirense"></li>
+                    <li><img src="img/investidor.jpg" alt="Investidor"></li>
+                </div>
+                <ul class="lista-sobre js-tabLink">
+                    <li><a href="#developer">→ <span>Developer</span></a></li>
                     <li><a href="#gamer">→ <span>Gamer</span></a></li>
                     <li><a href="#cruzeirense">→ <span>Cruzeirense</span></a></li>
                     <li><a href="#investidor">→ <span>Investidor</span></a></li>
