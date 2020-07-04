@@ -1,15 +1,19 @@
+var myButton = document.getElementById("myBtn");
 
-// function handleLink(event){
-// 	event.preventDefault();
-//     linksInternos.forEach((item) => {
-// 		item.classList.remove('ativo');
-// 	})
-// 	event.currentTarget.classList.add('ativo');
-// }
+window.onscroll = function() {scrollFunction()};
 
-// linksInternos.forEach((link) => {
-//     link.addEventListener('click', handleLink)
-// })
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    myButton.style.display = "block";
+  } else {
+    myButton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 const tabLink = document.querySelectorAll('.js-tabLink li a');
 const tabImagens = document.querySelectorAll('.js-tabImagens li');
