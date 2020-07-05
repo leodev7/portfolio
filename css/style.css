@@ -251,13 +251,17 @@ html{
   display: block;
 }
 
-.habilidades .lista-sobre {
+.lista-sobre {
   font-size: 30px;
   padding: 50px 0 50px 50px;
   line-height: 50px;
   width: 300px;
 }
 
+.lista-sobre .ativoLink {
+  font-size: 40px;
+  color: var(--primary-color);
+}
 
 .lista-sobre span,
 .lista-sobre li a {
@@ -499,17 +503,16 @@ textarea::placeholder {
   }
 }
 
-.lista-sobre .ativoLink {
-  font-size: 40px;
-  color: var(--primary-color);
-}
-
 .js .js-tabImagens li{
   display: none;
 }
 
 .js .js-tabImagens li.ativo {
-  display: block !important;
+  display: block;
+  animation: show .5s forwards;
+}
+
+.js .js-tabLink p.ativo{
   animation: show .5s forwards;
 }
 
