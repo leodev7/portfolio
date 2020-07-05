@@ -242,6 +242,15 @@ html{
   width: 300px;
 }
 
+.lista-sobre p {
+  font-size: 14px;
+  display: none;
+}
+
+.lista-sobre p.ativo{
+  display: block;
+}
+
 .habilidades .lista-sobre {
   font-size: 30px;
   padding: 50px 0 50px 50px;
