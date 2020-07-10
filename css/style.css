@@ -43,12 +43,6 @@ html{
   background-color: #6b4798b8;
 }
 
-#page-home {
-  background: url("../img/banner-home-2.jpg") no-repeat;
-  height: 100vh;
-  background-position: right 35% bottom 25%;
-}
-
 #page-home .container {
   width: 70%;
   max-width: 1100px;
@@ -82,13 +76,19 @@ html{
   text-transform: uppercase;
 }
 
-#page-home main {
-  max-width: 560px;
-  max-height: 70vh;
-  flex: 1;
+#page-home main{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex: 1;
+}
+
+#page-home h1, #page-home .logo{
+  align-self: flex-end;
+  margin-top: 150px;
+}
+
+#page-home .logo>img{
+  animation: logo 2s infinite alternate-reverse ease-in-out;
 }
 
 .hover-underline-animation {
@@ -363,6 +363,13 @@ textarea::placeholder {
   margin: 12px 0;
 }
 
+#contato {
+  text-align: center;
+}
+
+.redes-sociais {
+  padding: 50px 0;
+}
 
 .s-m a {
   display: inline-flex;
@@ -398,9 +405,16 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 788px) and (max-width: 1160px) {
-  #page-home {
-    background-size: contain;
+  #page-home main{
+    display: inline;
+    text-align: center;
+    justify-self: left;
   }
+
+  .logo {
+    margin-top: 70px !important;
+  }
+  
   #page-home header ul li{
     padding-left: 40px;
   }
@@ -432,8 +446,17 @@ textarea::placeholder {
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
-  #page-home {
-    background-image: none;
+  #page-home main{
+    display: inline;
+    text-align: center;
+  }
+
+  #page-home .logo>img{
+    width: 300px;
+  }
+
+  .logo {
+    margin-top: 70px !important;
   }
 
   #page-home header {
@@ -531,5 +554,14 @@ textarea::placeholder {
   to {
       opacity: 1;
       transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes logo{
+  from{
+    transform: rotate(3deg)
+  }
+  to{
+    transform: rotate(-3deg)
   }
 }
