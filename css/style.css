@@ -88,7 +88,7 @@ html{
 }
 
 #page-home .logo>img{
-  /*animation: logo 2s infinite alternate-reverse ease-in-out;*/
+  animation: logo 2s infinite alternate-reverse ease-in-out;
 }
 
 .hover-underline-animation {
