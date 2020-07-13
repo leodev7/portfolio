@@ -82,12 +82,12 @@ html{
   flex: 1;
 }
 
-#page-home h1, #page-home .logo{
+#page-home h1, #page-home picture{
   align-self: flex-end;
   margin-top: 150px;
 }
 
-#page-home .logo>img{
+#page-home picture, #page-home picture img{
   animation: logo 2s infinite alternate-reverse ease-in-out;
 }
 
@@ -411,8 +411,8 @@ textarea::placeholder {
     justify-self: left;
   }
 
-  .logo {
-    margin-top: 70px !important;
+  #page-home picture img {
+    padding-top: 70px !important;
   }
   
   #page-home header ul li{
@@ -451,12 +451,8 @@ textarea::placeholder {
     text-align: center;
   }
 
-  #page-home .logo>img{
-    width: 300px;
-  }
-
-  .logo {
-    margin-top: 70px !important;
+  #page-home picture img {
+    padding-top: 70px !important;
   }
 
   #page-home header {
@@ -559,10 +555,10 @@ textarea::placeholder {
 
 @keyframes logo{
   from{
-    transform: rotate(3deg)
+    transform: rotate(3deg);
   }
   to{
-    transform: rotate(-3deg)
+    transform: rotate(-3deg);
   }
 }
 
@@ -572,6 +568,17 @@ textarea::placeholder {
 }
 
 .js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: .3s;
+}
+
+.js .js-projetos {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-projetos.ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: .3s;
