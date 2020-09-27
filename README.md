@@ -5,8 +5,8 @@ A simple portfolio created to share projects and jobs
 ## SKILLS
 
 - HTML/5
-- CSS/3
-- JS
+- CSS/3 (_bootstrap, materialize_)
+- JS (_jQuery, VUE, REACT_)
 - SQL
 - GIT
 
