@@ -158,7 +158,7 @@ header ul li:last-of-type>a:hover{
 #projetos h1,
 #contato h1 {
   font-size: 50px;
-  padding: 130px 0 50px;
+  padding: 200px 0 50px;
   color: #fffaf8;
 }
 
@@ -471,7 +471,7 @@ textarea::placeholder {
 
   #projetos {
     background-color: #686c99;
-    padding-bottom: 130px;
+    padding-bottom: 250px;
     -webkit-clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
     clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
   }
@@ -519,6 +519,10 @@ textarea::placeholder {
 
 /* Estilo menor */
 @media only screen and (max-width: 550px) {
+  #page-home .container {
+    width: 100%;
+  }
+
   #page-home header ul li {
     padding: 0 10px;
   }

@@ -6,7 +6,7 @@ A simple portfolio created to share projects and jobs
 
 - HTML/5
 - CSS/3 (_bootstrap, materialize_)
-- JS (_jQuery, VUE, REACT_)
+- JS (_jQuery, VUE, QUASAR_)
 - WordPress
 - SQL
 - GIT
